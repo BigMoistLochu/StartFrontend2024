@@ -1,0 +1,24 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li{
+    background: linear-gradient(90deg, #6616d0, #ac34e7);
+    border-radius: 45px;
+    color: #fff;
+    padding: 14px 40px;
+    margin: 0 15px;
+    list-style: none;
+    display: inline;
+}
+
+.login-button{
+    background: linear-gradient(90deg, #6616d0, #ac34e7);
+    border-radius: 45px;
+    color: #fff;
+    padding: 14px 40px;
+    margin: 0 15px;
+}
+
