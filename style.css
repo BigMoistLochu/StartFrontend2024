@@ -14,11 +14,20 @@ li{
     display: inline;
 }
 
-.login-button{
+#login-button{
     background: linear-gradient(90deg, #6616d0, #ac34e7);
     border-radius: 45px;
     color: #fff;
     padding: 14px 40px;
     margin: 0 15px;
+    height: 46px;
+
+}
+
+#navi-list{
+    margin: 0;
+    width: 1600px;
+    display: flex;
+    justify-content: end;
 }
 
