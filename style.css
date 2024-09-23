@@ -11,13 +11,12 @@
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
     margin-top: 10px;
     background-color: #E4E9F7;
-    align-items: center;
     font-size: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -32,7 +31,7 @@ li{
     
 }
 
-#login-button{
+#login-button {
     background-color: var(--background-color);
     border-radius: 45px;
     color: #fff;
@@ -49,4 +48,20 @@ li{
     justify-content: center;
     align-items: center;
 }
+
+#navbar-brand{
+    flex-shrink: 0;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.fa-solid.fa-robot.fa-3x{
+    color: var(--background-color);
+}
+
+
+
+
+
+
 
