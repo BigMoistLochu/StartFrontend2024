@@ -28,7 +28,13 @@ li{
     margin: 0 15px;
     list-style: none;
     height: 48px;
+    width: 120px;
     
+}
+
+li a {
+    text-decoration: none; /* Usuwa podkreślenie */
+    color: inherit;
 }
 
 #login-button {
