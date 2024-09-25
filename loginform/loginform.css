@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #E4E9F7;
+    margin-top: 10px;
+    height: 80px;
+}
+
+#navbar-brand{
+    margin-left: 50px;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: start; /* Wyśrodkowanie w poziomie */
+    align-items: center;     /* Wyśrodkowanie w pionie */
+}
+
+.fa-solid.fa-robot.fa-3x{
+    color: #695CFE;
+}
+
+#navbar-text{
+    color: #695CFE;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+#form-container{
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+    background-color: #E4E9F7;
+}
+
