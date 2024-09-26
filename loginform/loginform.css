@@ -30,10 +30,26 @@ nav{
     margin-top: 30px;
 }
 
-#form-container{
+#container{
     margin-top: 30px;
-    height: auto;
-    width: auto;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container{
+    height: 400px;
+    width: 400px;
     background-color: #E4E9F7;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container form{
+    background-color: beige;
 }
 
