@@ -2,17 +2,20 @@
     padding: 0;
     margin: 0;
     border: 0;
+    font-size: 100%;
     box-sizing: border-box;
 }
 
 :root{
-    --background-color: #695CFE;
+    --background-color: rgb(34, 209, 114);
+    /* rgb(34, 209, 114) */
+    /* rgb(26, 46, 68); */
     --text-color: #fff;
 }
 
 nav{
     margin-top: 10px;
-    background-color: #E4E9F7;
+    background-color: rgb(26, 46, 68);
     font-size: 15px;
     display: flex;
     justify-content: space-between;
