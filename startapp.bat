@@ -27,7 +27,7 @@ docker build -t my-apache-app .
 
 :: Uruchom nowy kontener
 echo Running container: my-running-app
-docker run -dit --name my-running-app -p 8080:80 my-apache-app
+docker run -dit --name my-running-app -p 80:80 my-apache-app
 
 :: Wyświetl uruchomione kontenery
 docker ps
