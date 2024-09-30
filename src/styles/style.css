@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-size: 100%;
     font-weight: 600;
     color: white;
     box-sizing: border-box;
@@ -37,4 +36,25 @@
     border-radius: 45px;
     border: 2px solid white;
     background-color: rgb(34, 209, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-title{
+    margin-left: 15px;
+    font-size: 50px;
+    margin: auto;
+}
+
+#main-img{
+    margin-left: 40px;
+}
+
+.emoji {
+    background-color: transparent; /* Gwarantuje, że tło jest przezroczyste */
+}
+
+.mood-type{
+    background-color: transparent; /* Gwarantuje, że tło jest przezroczyste */
 }
