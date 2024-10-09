@@ -9,7 +9,7 @@ const uniquePlayer = new Player('John Doe', 1, 20, 100);
 const drawmethod = (player) => {
     let playerImage = document.getElementById("player");
     if (playerImage !== null) playerImage.remove();
-
+    debugger
     // 1. Tworzymy nowy element <div>
     const newDiv = document.createElement('div');
     // Opcjonalnie: Dodajemy id lub inne atrybuty do tego elementu
@@ -28,6 +28,7 @@ const drawmethod = (player) => {
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'ArrowDown') {
+        fetch
         uniquePlayer.moveDown();
         console.log(uniquePlayer.getYPosition());
         drawmethod(uniquePlayer);
