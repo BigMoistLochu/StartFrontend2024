@@ -1,4 +1,5 @@
+import { sumNumbers } from "./calculator.js";
 
-document.addEventListener("wheel", function (event) {
-    console.log("apepapap");
-})
+
+
+
